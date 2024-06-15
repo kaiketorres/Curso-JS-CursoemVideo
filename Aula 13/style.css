@@ -1,0 +1,40 @@
+body{
+    background-color: rgb(153, 149, 149);
+    text-align: center;
+}
+
+.move_cont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.back_div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+    width: 550px;
+    height: 400px;
+    background-color: rgb(85, 83, 83);
+    border-radius: 10px;
+}
+
+.display{
+    width: 300px;
+    height: 30px;
+}
+
+.img_container{ 
+    background-color: black;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.config_img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
