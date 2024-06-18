@@ -1,29 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
 body{
     background-color: #3A80D2;
 }
 
 header{
     color: white;
-    text-align: center;
 }
 
 main{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   height: 100vh;
+   gap: 10px;
 }
 
 section{
     display: flex;
     flex-direction: column;
     gap: 20px;
-    width: 500px;
+    width: 430px;
     padding: 25px;
-    height: 430px;
+    height: 50%;
     background-color: white;
     border-radius: 10px;
 }
+
+
+
+.foi{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+}
+
 
 
 .move_img_display{
@@ -35,7 +50,7 @@ section{
 }
 
 .display{
-    width: 245px;
+    width: 345px;
     
 }
 

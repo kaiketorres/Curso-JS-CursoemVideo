@@ -31,15 +31,15 @@ img_noite.src = 'fotos/noite.jpg'
 
 
 if(hora < 12){
-    document.body.style.backgroundColor = ('#67567A')
+    document.body.style.backgroundColor = ('#CBBB8D')
     img_container.appendChild(img_dia)
-    back_div.style.backgroundColor = ('#CEBE90')
+    back_div.style.backgroundColor = ('white')
 } else if(hora < 18){
-    document.body.style.backgroundColor = ('#67567A')
+    document.body.style.backgroundColor = ('#A67863')
     img_container.appendChild(img_tarde)
-    back_div.style.backgroundColor = ('#CEBE90')
+    back_div.style.backgroundColor = ('white')
 } else{
-    document.body.style.backgroundColor = ('#67567A')
+    document.body.style.backgroundColor = ('#464948')
     img_container.appendChild(img_noite)
-    back_div.style.backgroundColor = ('#CEBE90')
+    back_div.style.backgroundColor = ('white')
 }

@@ -7,21 +7,21 @@
     <title>Vericador de idade</title>
 </head>
 <body>
-    <header>
-        <h1>Vericador de idade</h1>
-    </header>
+   
     <main>
-
-    <section class="back_div">
+        <header>
+            <h1>Vericador de idade</h1>
+        </header>
+    <section >
 
             <div>
                 <label for="ano">Ano de Nascimento </label>
-                <input type="number" name="ano" id="ano">
+                <input value="2004" type="number" name="ano" id="ano">
             </div>
 
             <div>
                Sexo:
-               <input type="radio" name="sexo" id="masculino">
+               <input checked type="radio" name="sexo" id="masculino">
                Masculino / 
                Feminino 
                <input type="radio" name="sexo" id="feminino">
@@ -30,13 +30,15 @@
             <input onclick="verificar()" type="button" value="Verificar">
 
             <div class="move_img_display">
-                <div class="display"></div>
+                <div class="display"> Preencha os dados acima para ver o resultado!</div>
                 <div class="img_div"></div>
             </div>
 
         </section>
         
     </main>
+
+    
 
     <script src="Ex015.js" ></script>
 </body>
