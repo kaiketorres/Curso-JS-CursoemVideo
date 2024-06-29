@@ -42,19 +42,6 @@ section{
 
 .display{
     width: 345px;
-    
-}
-
-.img_div{
-    width: 260px;
-    height: 250px;
-    border-radius: 50%;
-}
-
-.config_img{
-    width: 260px;
-    height: 250px;
-    border-radius: 50%;
 }
 
 #resultado{
