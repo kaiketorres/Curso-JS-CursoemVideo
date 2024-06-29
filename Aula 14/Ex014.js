@@ -18,7 +18,7 @@
             display.innerHTML = `Detectamos crianca mulher de ${resultadoCalculo} anos `;
             foto.src = 'Fotos/crianca_menina.jpg'
             img_div.appendChild(foto)
-            return menina
+            
         } else if (masculino.checked && resultadoCalculo <= 12) {
             display.innerHTML = `Detectamos crianca homem de ${resultadoCalculo} anos `;
             foto.src = 'Fotos/crianca_menino.jpg'
