@@ -16,7 +16,7 @@ Os exercícios neste repositório foram desenvolvidos como parte do curso de Jav
 </ul>
 
 # &#x1F680; Status
-concluído ✅
+Concluído ✅
 
 # 📚 Créditos
 Estes projetos foram desenvolvidos como parte do curso de JavaScript do Curso em Vídeo, sob orientação do professor Gustavo Guanabara.
